@@ -1,0 +1,341 @@
+
+body {
+    box-sizing: border-box;
+    background: #E5E5E5;
+    
+    
+
+}
+*{
+    font-family: 'Lato', sans-serif, Arial;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.container{
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #31B447;
+    font-weight: 700;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+
+}
+
+.logo h1, h2{
+    margin: 0;
+}
+.logo h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 89px;
+}
+.stations  {
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    margin-left: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: 400;
+    color: #545759;
+    margin-bottom: 103px;
+    margin-top: 54px;
+}
+.logo-green{
+    color: #31B447;
+    
+}
+.example-stations{
+    text-align: center;
+    background-image: url('../img/Group\ 7.png');
+    width: 100%;
+    height: 100%;
+    max-width: 245px;
+    min-width: 150px;
+    min-height: 129px;
+    max-height: 210px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 8px 0px 70px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 15px;
+
+}
+.sale-stations{
+    margin:0 15px;
+    text-align: center;
+}
+.sale-stations button{
+    border: 0;
+    background: inherit;
+}
+.sale-stations button:focus{
+    outline: 0;
+}
+.tab-links.active a{
+    color: #545759;
+;
+}
+.tab-links.active .example-stations{
+    background-image: url('../img/background.png');
+    background-size: 162%;
+    background-position: center
+}
+.example-stations img{
+  width: 40%;
+  margin-top: 24px;
+}
+.stations-select{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.sale-stations a {
+    margin-bottom: 15px;
+}
+.example-stations.image-size img{
+    width: 65%;
+}
+.i-station img {
+
+    width: 75%;
+}
+.add img {
+    margin: 0;
+    width: 100%;
+}
+.add button{
+    border: 0px;
+    background-color: inherit;
+    cursor: pointer;
+}
+.add button:focus{
+    outline: none;
+}
+.create-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    margin-right: 0px;
+}
+.mobile-option{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+/* Create style for section "select-stations-information" */
+
+.station-options{
+    margin-left: 30px;
+}
+.select-stations-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.image-station img{
+    width: 100%;
+
+}
+
+.image-station{
+    z-index: 1;
+    max-width: 520px;
+    max-height: 731px;
+    width: 100%;
+    margin-top: 104px;
+}
+.information h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22.86px;
+    color: white;
+    margin: 0;
+ 
+}
+.information{
+    position: relative;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.information::before{
+    content: '';
+    background: url('../img/AC\ Level\ 2\ “Charge\ complex”.png');
+    width: 520px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 747px;
+    position: absolute;
+    background-size: 100%;
+    left: -550px;
+    top: -38px;
+
+}
+.information.home-station::before{
+    content: '';
+    background: url('../img/home-station.png');
+    width: 520px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 642px;
+    position: absolute;
+    background-size: 84%;
+    left: -525px;
+    top: -25px;
+
+}
+.information.home-Station-V2::before{
+    content: '';
+    background: url('../img/home-station-V2.png');
+    width: 520px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 690px;
+    position: absolute;
+    background-size: 50%;
+    left: -472px;
+    top: -97px;
+
+}
+.information.public-Station::before{
+    content: '';
+    background: url('../img/public-station.png');
+    width: 520px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 743px;
+    position: absolute;
+    background-size: 100%;
+    left: -525px;
+    top: -36px;
+
+}
+.information.i-Station::before{
+    content: '';
+    background: url('../img/i-station.png');
+    width: 520px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 578px;
+    position: absolute;
+    background-size: 48%;
+    left: -525px;
+    top: -44px;
+
+}
+.information p {
+    color: white;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    margin: 0;
+
+}
+.about-station{
+    margin-top: 128px;
+    display: flex;
+    background: #545759;
+    width: calc(65% + 100px);
+    padding-left: 240px;
+    
+}
+.option-button{
+    margin-top: 15px;
+    
+}
+.option-button-style{
+    max-width: 520px;
+    width: 100%;
+    display: flex;
+    min-width: 320px;
+    justify-content: space-between;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    background-color: inherit;
+    color: white;
+}
+.money-style{
+    padding-left: 218px;
+    align-self: center;
+}
+.option-button-style span{
+    margin: 15px 20px;
+    display: block;
+    
+}
+.option-button button:focus{
+    outline: none;
+
+}
+.option-button button:focus{
+    background: #3EB952;
+    border: 1px solid #3EB952;;
+
+}
+
+.tab-content{
+    display: none;
+}
+
+
+.footer-buttons{
+    margin-top: 263px;
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 35px;
+}
+
+.price-button {
+    border:0;
+    font-size: 36px;
+    padding: 19px 80px;
+    font-weight: 900;
+    background: #545759;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    color: white;
+}
+.price-button,.buy-button:focus{
+    outline: 0;
+}
+.buy-button{
+    margin-left: 30px;
+    border:0;
+    font-size: 36px;
+    padding: 19px 60px;
+    font-weight: 900;
+    background: #545759;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    color: white;
+}
+.buy-button:focus{
+    background: #3EB952;
+    box-shadow: 0px 4px 15px #3EB952;
+}
+.information.home-Station-V2{
+    margin-bottom: 50px;
+    
+}
+#home-Station-V2 .footer-buttons{
+    margin-top: 383px;
+}
+
+#i-Station .footer-buttons{
+    margin-top: 350px;
+}

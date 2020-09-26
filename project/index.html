@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normolize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaQuery.css">
+    <title>AutoEnterprise</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="stations">
+                <div class="logo">
+                    <h1><span class="logo-green">Auto</span>Enterprise</h1>
+                    <h2>Sales</h2>
+                </div>
+                <div class="stations-select">
+                    <div class="sale-stations">
+                        <button class="tab-links" onclick="openCity(event, 'home-Station')">
+                            <br>
+                            <a href="#">Домашняя станция</a>
+                            <div class="example-stations image-size">
+                                <img src="./img/home-Station.png" alt="station">
+                            </div>
+                        </button>
+
+                    </div>
+                    <div class="sale-stations">
+                        <button class="tab-links" onclick="openCity(event, 'home-Station-V2')">
+                            <br>
+                            <a href="#">Домашняя станция V2</a>
+                            <div class="example-stations">
+                                <img src="./img/home-station-V2.png" alt="station">
+                            </div>
+                        </button>
+
+                    </div>
+
+                    <div class="sale-stations">
+                        <button class="tab-links" onclick="openCity(event, 'public-Station')">
+                            <a href="#">Публичная зарядная<br>станция Type1 & Type2</a>
+                            <div class="example-stations image-size">
+                                <img src="./img/public-station.png" alt="station">
+                            </div>
+                        </button>
+
+                    </div>
+
+                    <div class="sale-stations">
+                        <button class="tab-links" onclick="openCity(event, 'i-Station')">
+                            <br>
+                            <a href="#">i-Station</a>
+                            <div class="example-stations i-station">
+                                <img src="./img/i-station.png" alt="station">
+                            </div>
+                        </button>
+
+                    </div>
+
+                    <div class="sale-stations">
+                        <button class="tab-links" onclick="openCity(event, 'charge-complex')">
+                            <a href="#">AC Level 2<br>“Charge complex”</a>
+                            <div class="example-stations image-size">
+                                <img src="./img/AC Level 2 “Charge complex”.png" alt="station">
+                            </div>
+                        </button>
+
+                    </div>
+
+                    <div class="sale-stations">
+                        <br>
+                        <br>
+                        <div class="example-stations create-button">
+                            <div class="add">
+                                <button><img src="./img/plus.png" alt="add-button"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="charge-complex" class="row-for-stations-information tab-content">
+                <div class="select-stations-information">
+
+                    <div class="about-station">
+                        <div class="information">
+                            <h3>Количество заряжаемых автомобилей</h3>
+                            <p>4 автомобиля + 1 опционально</p>
+                            <h3>Основные порты зарядной станции</h3>
+                            <p>AC 1 коннектор (Mennekes Type 2) 63A 3 фазы 380V = 43 кВт</p>
+                            <p>AC 1 коннектор (J1772 Type 1) 80А 1 фаза 230V = 18 кВт</p>
+                            <p>AC 1 коннектор (J1772 Type 1) 80А 1 фаза 230V = 18 кВт</p>
+                            <p>DC 1 коннектор (CHAdeMO) 125A 450V = 56 кВт</p>
+                            <p>DC 1 коннектор (CCS) 125А 450 V = 56 кВт</p>
+                            <h3>Корпус</h3>
+                            <p>Металл в порошковой покраске</p>
+                            <h3>Доступ и активация</h3>
+                            <p>через web-сайт</p>
+                            <p>Приложение AE Charging point</p>
+                            <p>чип (по VIN-номеру)</p>
+                            <p>Поддержка протоколов OCPP 1,5 SOAP & JSON, 1,6 SOAP & JSON</p>
+                            <p>RFID‐карт (стандарт Mifare), емкость памяти – до 1200 карт</p>
+                            <p>Call center 24/7 (русский/украинский/английский + другие языки опционально)</p>
+                            <p>аварийное SMS</p>
+                            <p>100% работа в offline для текущих пользователей.</p>
+                            <h3>Содержимое поставки</h3>
+                            <p>Зарядное устройство, инструкция пользователя</p>
+                            <p>Размеры зарядного устройства</p>
+                            <p>1267 x 434 x 697, высота устройства на ноге 2096 мм</p>
+                        </div>
+                        <div class="station-options">
+                            <div class="selections-buttons">
+                                <div class="option-button">
+                                    <button class="option-button-style">
+                                        <span>+1 CCS Type1<br>или Type2</span>
+                                        <span class="money-style">+ €500</span>
+                                    </button>
+                                </div>
+                                <div class="option-button">
+                                    <button class="option-button-style">
+                                        <span class="mobile-option">7” ЖК экран +€150</span>
+                                        <span class="money-style">+ €150</span>
+                                    </button>
+                                </div>
+                                <div class="option-button">
+                                    <button class="option-button-style">
+                                        <span>49" ЖК-экран для<br>показа рекламы </span>
+                                        <span class="money-style">+ €1000</span>
+                                    </button>
+                                </div>
+                                <div class="option-button">
+                                    <button class="option-button-style">
+                                        <span>Облегченный<br>алюминиевый корпус </span>
+                                        <span class="money-style">+ €500</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="footer-buttons">
+                                <div class="price">
+                                    <button class="price-button">
+                                        €10150
+                                    </button>
+                                </div>
+                                <div class="buy">
+                                    <button class="buy-button">
+                                        Купить
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="home-Station" class="row-for-stations-information tab-content">
+                <div class="select-stations-information">
+
+                    <div class="about-station">
+                        <div class="information home-station">
+                            <h3>Диапазон мощности</h3>
+                            <p>отсутствие напряжения на коннекторе при отключенном устройстве от автомобиля</p>
+                            <p>отсутствие напряжения на коннекторе при отключенном устройстве от автомобиля</p>
+                            <p>напряжение питания 220/240 в каждой точке разъем Type-2 – 380 В</p>
+                            <h3>Длина кабеля</h3>
+                            <p>от 5 м</p>
+                            <h3>Стандарты</h3>
+                            <p>Type1 (SAE-J1772) или Type2 (Mennekes)</p>
+                            <p>онлайн учет потребленной электроэнергии и времени заряда</p>
+                            <h3>Допустимый ток</h3>
+                            <p>6-40А</p>
+                            <h3>Температура эксплуатации </h3>
+                            <p>от -25 °C до +50 °C</p>
+                            <h3>Класс защиты</h3>
+                            <p>IP65</p>
+                            <h3>масса (mobile)</h3>
+                            <p>6 кг</p>
+                            <h3>Установка внутри/вне помещений</h3>
+                            <h3>Управление с использованием приложения</h3>
+                            <h3>Дистанционное обновление ПО</h3>
+
+                        </div>
+                        <div class="station-options">
+                            <div class="selections-buttons">
+                                <div class="option-button">
+                                    <button class="option-button-style">
+                                        <span class="mobile-option">Переносная “Mobile”</span>
+                                    </button>
+                                </div>
+                                <div class="option-button">
+                                    <button class="option-button-style">
+                                        <span class="mobile-option">Онлайн управление </span>
+                                        <span class="money-style">+ €50</span>
+                                    </button>
+                                </div>
+                                <div class="option-button">
+                                    <button class="option-button-style">
+                                        <span>Металлический<br>защитный кожух </span>
+                                        <span class="money-style">+ €50</span>
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="footer-buttons">
+                                <div class="price">
+                                    <button class="price-button">
+                                        €349
+                                    </button>
+                                </div>
+                                <div class="buy">
+                                    <button class="buy-button">
+                                        Купить
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="home-Station-V2" class="row-for-stations-information tab-content">
+                <div class="select-stations-information">
+
+                    <div class="about-station">
+                        <div class="information home-Station-V2">
+                            <h3>Диапазон мощности</h3>
+                            <p>отсутствие напряжения на коннекторе при отключенном устройстве от автомобиля</p>
+                            <p>1-27кВт</p>
+                            <p>отсутствие напряжения на коннекторе при отключенном устройстве от автомобиля</p>
+                            <p>напряжение питания 220/240 в каждой точке разъем Type-2 – 380 В </p>
+                            <h3>Длина кабеля</h3>
+                            <p>от 5 м</p>
+                            <h3>Стандарты</h3>
+                            <p>Type1 (SAE-J1772) или Type2 (Mennekes)</p>                            
+                            <p>онлайн учет потребленной электроэнергии и времени заряда</p>
+                            <h3>Допустимый ток</h3>
+                            <p>6-40А</p>
+                            <h3>Температура эксплуатации </h3>
+                            <p>от -25 °C до +50 °C</p>
+                            <h3>Класс защиты</h3>
+                            <p>IP65</p>
+                            <h3>масса (mobile)</h3>
+                            <p>6 кг</p>
+                            <h3>Установка внутри/вне помещений</h3>
+                            <h3>Управление с использованием приложения</h3>
+                            <h3>Дистанционное обновление ПО</h3>
+                        </div>
+                        <div class="station-options">
+                            <div class="selections-buttons">
+                                <div class="option-button">
+                                    <button class="option-button-style">
+                                        <span class="mobile-option">Type2</span>
+                                        <span class="money-style">+ €50</span>
+                                    </button>
+                                </div>
+
+                                <div class="footer-buttons">
+                                    <div class="price">
+                                        <button class="price-button">
+                                            €349
+                                        </button>
+                                    </div>
+                                    <div class="buy">
+                                        <button class="buy-button">
+                                            Купить
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="public-Station" class="row-for-stations-information tab-content">
+                <div class="select-stations-information">
+
+                    <div class="about-station">
+                        <div class="information public-Station">
+                            <h3>Диапазон мощности</h3>
+                            <p>отсутствие напряжения на коннекторе при отключенном устройстве от автомобиля</p>
+                            <p>1-30кВт</p>
+                            <p>отсутствие напряжения на коннекторе при отключенном устройстве от автомобиля</p>
+                            <p>напряжение питания 220/240 в каждой точке разъем Type-2 – 380 В</p>
+                            <h3>Длина кабеля</h3>
+                            <p> 5,7 м</p>
+                            <h3>Стандарты</h3>
+                            <p>Type1 (SAE-J1772) или Type2 (Mennekes)</p>
+                            <p>онлайн учет потребленной электроэнергии и времени заряда</p>
+                            <h3>Температура эксплуатации </h3>
+                            <p>от -45 °C до +50 °C</p>
+                            <h3>Класс защиты</h3>
+                            <p>IP65</p>
+                            <h3>Установка внутри/вне помещений</h3>
+                            <h3>Управление с использованием приложения</h3>
+                            <h3>Дистанционное обновление ПО</h3>
+                            <h3>Класс защиты от воздействия внешней среды: IP54</h3>
+                            <h3>Класс защиты от механических воздействий: IK10</h3>
+                            <h3>Водостойкая и ударопрочная конструкция</h3>
+                            <h3>Гарантийный срок: 12 месяцев</h3>
+                        </div>
+                        <div class="station-options">
+                            <div class="selections-buttons">
+                                <div class="option-button">
+                                    <button class="option-button-style">
+                                        <span class="mobile-option">Type1 + Type 2</span>
+                                        <span class="money-style">+ €500</span>
+                                    </button>
+                                </div>
+                                <div class="option-button">
+                                    <button class="option-button-style">
+                                        <span class="mobile-option">2 Type 1</span>
+                                        <span class="money-style">+ €500</span>
+                                    </button>
+                                </div>
+                                <div class="option-button">
+                                    <button class="option-button-style">
+                                        <span class="mobile-option">3 Type 1</span>
+                                        <span class="money-style">+ €500</span>
+                                    </button>
+                                </div>
+                                <div class="option-button">
+                                    <button class="option-button-style">
+                                        <span class="mobile-option">2* Type1 + Type 2</span>
+                                        <span class="money-style">+ €500</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="footer-buttons">
+                                <div class="price">
+                                    <button class="price-button">
+                                        €1300
+                                    </button>
+                                </div>
+                                <div class="buy">
+                                    <button class="buy-button">
+                                        Купить
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="i-Station" class="row-for-stations-information tab-content">
+                <div class="select-stations-information">
+
+                    <div class="about-station">
+                        <div class="information i-Station">
+                            <h3>Диапазон мощности</h3>
+                            <p>отсутствие напряжения на коннекторе при отключенном устройстве от автомобиля</p>
+                            <p>1-44кВт</p>
+                            <p>отсутствие напряжения на коннекторе при отключенном устройстве от автомобиля</p>
+                            <p>напряжение питания 220/240 в каждой точке разъем Type-2 – 380 В</p>
+                            <h3>Длина кабеля</h3>
+                            <p> 5,7 м</p>
+                            <h3>Стандарты</h3>
+                            <p>Type1 (SAE-J1772) или Type2 (Mennekes)</p>
+                            <p>онлайн учет потребленной электроэнергии и времени заряда</p>
+                            <h3>Температура эксплуатации </h3>
+                            <p>от -45 °C до +50 °C</p>
+                            <h3>Класс защиты</h3>
+                            <p>IP65</p>
+                            <h3>Установка внутри/вне помещений</h3>
+                            <h3>Управление с использованием приложения</h3>
+                            <h3>Дистанционное обновление ПО</h3>
+                            <h3>Класс защиты от воздействия внешней среды: IP54</h3>
+                            <h3>Класс защиты от механических воздействий: IK10</h3>
+                            <h3>Водостойкая и ударопрочная конструкция</h3>
+                            <h3>Гарантийный срок: 12 месяцев</h3>
+                        </div>
+                        <div class="station-options">
+                            <div class="selections-buttons">
+                                <div class="option-button">
+                                    <button class="option-button-style">
+                                        <span class="mobile-option">На ноге </span>
+                                        <span class="money-style">+ €200</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="footer-buttons">
+                                <div class="price">
+                                    <button class="price-button">
+                                        €1100
+                                    </button>
+                                </div>
+                                <div class="buy">
+                                    <button class="buy-button">
+                                        Купить
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="./js/main.js"></script>
+</body>
+
+</html>

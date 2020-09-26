@@ -1,0 +1,195 @@
+@media only screen and (max-width: 1367px){
+    .information.home-station::before{
+        left: -450px;
+    }
+    .about-station{
+        padding-left: 165px;
+    }
+    #home-Station-V2 .footer-buttons{
+        margin-top: 490px;
+    }
+    .information.home-Station-V2::before{
+        height: 715px;
+        position: absolute;
+        background-size: 56%;
+        left: -453px;
+        top: -41px;
+    }
+    #public-Station .footer-buttons{
+        margin-top: 285px;
+    }
+    .information.public-Station::before{
+        background-size: 100% 110%;
+        top: -21px;
+    }
+    #i-Station .footer-buttons{
+        margin-top: 540px;
+    }
+    .information.i-Station::before{
+        height: 767px;
+        background-size: 64%;
+        left: -451px;
+        top: -42px;
+    }
+    #charge-complex .footer-buttons{
+        margin-top: 440px;
+    }
+    .information::before{
+        height: 916px;
+        background-size: 84% 100%;
+        left: -480px;
+        top: -38px;
+    }
+   
+}
+
+
+
+@media only screen and (max-width: 769px){
+    .logo{
+        margin-left: 0px;
+        align-items: center;
+        margin-bottom: 34px;
+    }
+    .logo h2{
+        margin-left: 0px;
+    }
+    .about-station{
+        width: 100%;
+        padding-left: 0px;
+        flex-direction: column;
+        
+    }
+    .information{
+        margin-left: 20px;
+    }
+    .station-options{
+        margin-left: 0px;
+    }
+    .option-button-style{
+        margin: 0 auto;
+    }
+    .information::before{
+        height: 374px;
+        background-size: 50%;
+        left: 104px;
+        top: 965px;
+    }
+    .footer-buttons{
+        justify-content: space-around;
+    }
+    .information.i-Station::before{
+        height: 491px;
+        background-size: 40%;
+        left: 104px;
+        top: 607px;
+    }
+    .information.public-Station::before{
+        height: 370px;
+        background-size: 50%;
+        left: 72px;
+        top: 870px;
+    }
+    #public-Station .footer-buttons {
+        margin-top: 440px;
+    }
+    .information.home-Station-V2::before{
+        height: 411px;
+        background-size: 32%;
+        left: 104px;
+        top: 700px;
+    }
+    .information.home-station::before{
+        height: 387px;
+        position: absolute;
+        background-size: 50%;
+        left: 104px;
+        top: 776px;
+    }
+    #home-Station .footer-buttons{
+        margin-top: 465px;
+    }
+}
+
+@media only screen and (max-width: 381px){
+    .example-stations{
+        width: 150px;
+        height: 129px;
+        margin: 5px 8px;
+    }
+    .sale-stations{
+        margin: 0px;
+    }
+    a{
+        font-size: 13px;
+    }
+    .information.home-Station-V2::before{
+        height: 261px;
+        background-size: 32%;
+        left: 0px;
+        top: 800px;
+        width: 320px;
+    }
+    .option-button-style{
+        width: 320px;
+    }
+    .money-style{
+        padding-left: 0px;
+    }
+    .option-button-style span{
+        margin: 7px 20px;
+    }
+    #home-Station-V2 .footer-buttons{
+        margin-top: 350px;
+    }
+    .buy-button{
+        font-size: 18px;
+        padding: 18px 49px;
+        margin-left: 0px;
+    }
+    .price-button{
+        width: 168px;
+        padding: 18px 53px;
+        font-size: 18px;
+    }
+    .information.home-station::before{
+        height: 257px;
+        width: 340px;
+        background-size: 50%;
+        left: -8px;
+        top: 864px;
+    }
+    #home-Station .footer-buttons{
+        margin-top: 333px;
+    }
+    .information.public-Station::before{
+        height: 260px;
+        width: 340px;
+        background-size: 50%;
+        left: -19px;
+        top: 1000px;
+    }
+    #public-Station .footer-buttons{
+        margin-top: 320px;
+    }
+    .information.i-Station::before{
+        height: 330px;
+        width: 340px;
+        background-size: 40%;
+        left: -8px;
+        top: 800px;
+    }
+    #i-Station .footer-buttons{
+        margin-top: 385px;
+    }
+    .information::before{
+        width: 340px;
+        height: 274px;
+        background-size: 50%;
+        left: -8px;
+        top: 1150px;
+    }
+    #charge-complex .footer-buttons{
+        margin-top: 300px;
+    }
+}
